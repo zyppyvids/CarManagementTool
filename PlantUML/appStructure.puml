@@ -1,0 +1,12 @@
+@startuml AppStructure
+database "SQLite" 
+package "SPA" {
+    [React (JS)]
+    [Bootstrap]
+}
+
+HTTP - [Django Rest Framework (Python)]
+[Django Rest Framework (Python)] -> [SQLite]
+[React (JS)] ..> [Bootstrap]
+[React (JS)] ..> [Django Rest Framework (Python)]
+@enduml
