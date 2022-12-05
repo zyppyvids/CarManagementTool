@@ -1,4 +1,4 @@
-# Simple Car API
+# Car Management Tool
 
 A simple car API that consists of all CRUD operations done on the models:
 
