@@ -46,9 +46,10 @@ class App extends Component {
   }
 
   loadSearchView(){
+    document.documentElement.style.setProperty('--sel-color','turquoise');
     return (
       <div className='vertical-horizontal-center'>
-        <div className='search form content' style={{overflow: 'auto'}}>
+        <div className='boarded form content' style={{overflow: 'auto'}}>
           {this.state.cat === 'cars' ? <SearchForm /> : (this.state.cat === 'models' ? <SearchFormML /> : <SearchFormMK />)}
         </div>
       </div>
@@ -56,9 +57,10 @@ class App extends Component {
   }
 
   loadUpdateView(){
+    document.documentElement.style.setProperty('--sel-color','plum');
     return (
       <div className='vertical-horizontal-center'>
-        <div className='update form content'>
+        <div className='boarded form content'>
           {this.state.cat === 'cars' ? <UpdateForm /> : (this.state.cat === 'models' ? <UpdateFormML /> : <UpdateFormMK />)}
         </div>
       </div>
@@ -66,9 +68,10 @@ class App extends Component {
   }
 
   loadCreateView(){
+    document.documentElement.style.setProperty('--sel-color','rgb(40, 150, 250)');
     return (
       <div className='vertical-horizontal-center'>
-        <div className='create form content'>
+        <div className='boarded form content'>
           {this.state.cat === 'cars' ? <CreateForm /> : (this.state.cat === 'models' ? <CreateFormML /> : <CreateFormMK />)}
         </div>
       </div>
@@ -76,9 +79,10 @@ class App extends Component {
   }
 
   loadDeleteView(){
+    document.documentElement.style.setProperty('--sel-color','rgb(243, 80, 80)');
     return (
       <div className='vertical-horizontal-center'>
-        <div className='delete form content'>
+        <div className='boarded form content'>
           {this.state.cat === 'cars' ? <DeleteForm /> : (this.state.cat === 'models' ? <DeleteFormML /> : <DeleteFormMK />)}
         </div>
       </div>

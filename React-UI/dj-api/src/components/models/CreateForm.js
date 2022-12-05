@@ -125,7 +125,7 @@ class CreateFormML extends Component {
         if(!this.state.isSubmitted) {
             return (
                 <Container>
-                <h1 style={{textAlign:'center', color:'rgb(40, 150, 250)'}}>-create-</h1>
+                <h1 className="coloured" style={{textAlign:'center'}}>-create-</h1>
                 <h5 style={{textAlign:'center', color:'gray'}}>create a model by its Model/Name/Car Make</h5>
       
                 <div className="panel panel-default" style={{textAlign:"center"}}>

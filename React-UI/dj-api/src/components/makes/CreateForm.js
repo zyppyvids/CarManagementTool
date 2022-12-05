@@ -86,7 +86,7 @@ class CreateFormMK extends Component {
     if(!this.state.isSubmitted) {
         return (
             <Container>
-            <h1 style={{textAlign:'center', color:'rgb(40, 150, 250)'}}>-create-</h1>
+            <h1 className="coloured" style={{textAlign:'center'}}>-create-</h1>
             <h5 style={{textAlign:'center', color:'gray'}}>create a make by its Name</h5>
     
             <div className="panel panel-default" style={{textAlign:"center"}}>

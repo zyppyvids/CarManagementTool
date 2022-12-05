@@ -51,7 +51,7 @@ class DeleteFormMK extends Component {
     {
       return (
           <Container>
-          <h1 style={{textAlign:'center', color:'rgb(243, 80, 80)'}}>-delete-</h1>
+          <h1 className="coloured" style={{textAlign:'center'}}>-delete-</h1>
           <h5 style={{textAlign:'center', color:'gray'}}>delete a make by selecting it</h5>
           <Form>
               <Form.Group as={Row} className="mb-3" controlId="formGroup">

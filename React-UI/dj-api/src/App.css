@@ -35,20 +35,17 @@
 /*
  * Specific classNames
  */
-.search {
-  border-color: turquoise;
+
+.nav {
+  background-color: var(--sel-color) !important;
 }
 
-.update {
-  border-color: plum;
+.boarded {
+  border-color: var(--sel-color);
 }
 
-.create {
-  border-color: rgb(40, 150, 250);
-}
-
-.delete {
-  border-color: rgb(243, 80, 80);
+.coloured {
+  color: var(--sel-color)
 }
 
 .invert-img {

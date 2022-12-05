@@ -111,7 +111,7 @@ class UpdateForm extends Component {
         if(!this.state.isSubmitted) {
             return (
                 <Container>
-                <h1 style={{textAlign:'center', color:'plum'}}>-update-</h1>
+                <h1 className="coloured" style={{textAlign:'center'}}>-update-</h1>
                 <h5 style={{textAlign:'center', color:'gray'}}>update a given car in the DB by its ID/VIN/Car Plate</h5>
                 
                 <div className="panel panel-default" style={{textAlign:"center"}}>

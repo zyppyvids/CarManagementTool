@@ -53,7 +53,7 @@ class SearchFormMK extends Component {
     if(!this.state.isSubmitted) {
       return (
         <Container>
-          <h1 style={{textAlign:'center', color:'turquoise'}}>-search-</h1>
+          <h1 className="coloured" style={{textAlign:'center'}}>-search-</h1>
           <h5 style={{textAlign:'center', color:'gray'}}>search for a given make in the DB by its ID/VIN/Car Plate</h5>
           <Form>
             <Form.Group as={Row} className="mb-3">
