@@ -39,6 +39,7 @@ Feel free to make pull requests for me to update the simple yet interesting exam
     2. Install npm.
     3. Run a `npm install` inside the ReactJS folder.
     4. Run a `npm start` inside the same folder.
-    5. Run a `python manage.py runserver` inside the Django API folder.
+    5. Run a `pip install -r requirements.txt` inside the Django API folder.
+    6. Run a `python manage.py runserver` inside the Django API folder.
 
 If for whatever reason the db.sqlite3 file is missing - run a `python manage.py migrate` to be able to create the database needed for the application.
